@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* style kodu farklı bir dosya olarak alınabileceği gibi buraya da yazılabillir */
+        /* az bir miktar kod için ekstadan dosya açmaya gerek yoksa kullanılır*/
+        table,
+        th,
+        td
+
+        /* bu elemanlara özellik tanımlamak demek*/
+            {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tenetur libero iure velit cumque corporis
+        doloremque mollitia at, magni esse illo, eum similique optio facere molestiae ut nulla atque sequi.</p>
+    <!-- lorem komtu paragraf dodurur etc. lorem, lorem100 vs.-->
+
+    <p> <a
+            href="https://www.youtube.com/watch?v=Kb21Ak9i09M&list=PLdz-gps4GThxQYK06gFfEBFR6xAuvDlz7&index=3">Example</a>
+    </p>
+
+    <h4> Aynı Sekme Üzerinde</h4>
+
+    <p> <a target="_blank"
+            href="https://www.youtube.com/watch?v=Kb21Ak9i09M&list=PLdz-gps4GThxQYK06gFfEBFR6xAuvDlz7&index=3">Example</a>
+    </p>
+    <!-- target_blank yeni sekmede açar-->
+    <h4> Yeni Sekme Üzerinde</h4>
+    <br>
+    <!--boşluk bırakma yani enter ile aynı işlev-->
+    <!--kapatılabilir ama şimdilik gerek yok (</br>)-->
+    <br>
+    <br>
+    <br>
+    <img src="comhiclipartntugr.jpg" alt="Best DEAL!!!" width="500" height="333">
+    <!--resim ekleme-->
+    <!--resim hata verdiğinde çıkan yazı(üstüne gelindiğinde)-->
+    <br>
+    <table style="width:100%">
+        <!--tablo oluşturma-->
+        <!--genişlik 100% olsun (row)-->
+        <tr>
+            <!--table row-->
+            <th>Name</th>
+            <th>Appearance</th>
+            <th>G/A</th>
+            <!--th yani header 1. satır başlık-->
+        </tr>
+        <tr>
+            <!--2. satır FARKLI KARIŞTIRMA-->
+            <td>Santi Mina</td>
+            <td>38</td>
+            <td>20</td>
+            <!-- bunlar eleman, değişken. Başlık değiller-->
+        </tr>
+        <tr>
+            <td>Milhazes Agra</td>
+            <td>45</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>Harry Kane</td>
+            <td>53</td>
+            <td>12</td>
+        </tr>
+    </table>
+    <form action="/action_page.php">
+        <label for="fname">İsim:</label><br>
+        <input type="text" id="fname" name="fname" value="Eşek"> <br>
+        <br> <label for="lname">Soy İsim:</label> <br>
+        <input type="text" id="lname" name="lname" value="Naci"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
